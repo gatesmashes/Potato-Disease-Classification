@@ -1,10 +1,10 @@
-****🥔Potato Disease Classification****
+****🥔Potato Disease Classification****<br>
 
-This project applies Machine Learning (ML) and Deep Learning (DL) techniques to classify potato leaf diseases using the PlantVillage dataset.
-The model can predict the following classes:
-🌱 Healthy
-🍂 Early Blight
-🍁 Late Blight
+This project applies Machine Learning (ML) and Deep Learning (DL) techniques to classify potato leaf diseases using the PlantVillage dataset.<br>
+The model can predict the following classes:<br>
+🌱 Healthy<br>
+🍂 Early Blight<br>
+🍁 Late Blight<br>
 
 ****🚀 Features****
 ✅ End-to-end pipeline for potato disease classification
