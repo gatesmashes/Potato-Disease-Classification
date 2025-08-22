@@ -1,0 +1,15 @@
+/* Reset some defaults */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fdf9;
+  color: #333;
+}
+
+/* Center everything */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

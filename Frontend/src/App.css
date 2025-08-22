@@ -1,0 +1,83 @@
+/* Full Page Background */
+.app-bg {
+  min-height: 100vh;
+  width: 100%;
+  background: url("farm.png") no-repeat center center fixed; /* use your local image */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+/* Card */
+.app-container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 420px;
+  text-align: center;
+  animation: fadeIn 0.8s ease-in;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: #2e7d32;
+}
+
+p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Upload box */
+.upload-box input {
+  margin: 15px 0;
+}
+
+button {
+  background: linear-gradient(90deg, #66bb6a, #43a047);
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #43a047, #2e7d32);
+}
+
+/* Image Preview */
+.preview-box {
+  margin: 15px 0;
+}
+
+.preview-box img {
+  max-width: 100%;
+  border-radius: 10px;
+  border: 2px solid #c8e6c9;
+}
+
+/* Prediction Result */
+.result-box {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f1f8e9;
+  border: 1px solid #aed581;
+}
+
+.result-box h3 {
+  color: #1b5e20;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
